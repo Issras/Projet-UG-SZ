@@ -1,3 +1,9 @@
+body {
+    background: url(background.jpeg);
+    background-size: cover;
+    color: black;
+}
+
 #image-titre {
     text-align: center;
 }
@@ -12,6 +18,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 5vw;
+    background-color: whitesmoke;
 }
 
 #serie1 {
@@ -24,7 +31,7 @@
 
 #span1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #viking {
@@ -38,7 +45,7 @@
 
 #span2 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #texte2 {
@@ -53,6 +60,7 @@
 #images-films {
     display: flex;
     justify-content: center;
+    background-color: whitesmoke;
 }
 
 #film1 {
@@ -65,7 +73,7 @@
 
 #span3 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #inception {
@@ -79,7 +87,7 @@
 
 #span4 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #texte4 {
