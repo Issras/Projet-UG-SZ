@@ -4,24 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./page-netflix-css.css">
 </head>
 <body>
-    <img src="./Netflix.jpeg" alt="">
-    <div>
-        <img src="./Viking.jpeg" alt="">
-        <p>Série: Viking</p>
+    <div id="image-titre">
+        <img src="./Netflix.jpeg" alt="" id="image-netflix">
     </div>
-    <div>
-        <img src="./the-walking-dead.jpeg" alt="">
-        <p>Série: The Walking Dead</p>
-    </div>
-    <div>
-        <p>Film: Inception</p>
-        <img src="./inception.jpeg" alt="">
-    </div>
-    <div>
-        <p>Matrix</p>
-        <img src="https://www.telerama.fr/sites/tr_master/files/491e383c-3e02-498c-a9aa-af6e5cc2523f_2.jpg" alt="">
-    </div>
+    <section id="images-series">
+        <div id="serie1">
+            <span id="span1">
+                <div id="viking">
+                    <img src="./Viking.jpeg" alt="">
+                </div>
+                <div id="texte1">
+                    <p>Série: Viking</p>
+                </div>
+            </span>
+        </div>
+        <div id="serie2">
+            <span id="span2">
+                <div id="texte2">
+                    <p>Série: The Walking Dead</p>
+                </div>
+                <div id="walking-dead">
+                    <img src="./the-walking-dead.jpeg" alt="">
+                </div>
+            </span>
+        </div>
+    </section>
+    <section id="images-films">
+        <div id="film1">
+            <span id="span3">
+                <img src="./inception.jpeg" alt="" id="inception">
+                <p id="texte3">Film: Inception</p>
+            </span>
+        </div>
+        <div id="film2">
+            <span id="span4">
+                <p id="texte4">Matrix</p>
+            <img src="https://www.telerama.fr/sites/tr_master/files/491e383c-3e02-498c-a9aa-af6e5cc2523f_2.jpg" alt="" id="matrix">
+            </span>
+        </div>
+    </section>
 </body>
 </html>

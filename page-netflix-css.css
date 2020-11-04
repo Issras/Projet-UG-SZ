@@ -1,0 +1,93 @@
+#image-titre {
+    text-align: center;
+}
+
+#image-netflix {
+    width: 500px;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+
+#images-series {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+#serie1 {
+    flex: 1;
+}
+
+#serie2 {
+    flex: 1;
+}
+
+#span1 {
+    display: flex;
+    justify-content: center;
+}
+
+#viking {
+    flex: -1vw;
+}
+
+#texte1 {
+    flex: -1vw;
+    margin-left: 10px;
+}
+
+#span2 {
+    display: flex;
+    justify-content: center;
+}
+
+#texte2 {
+    flex: -1vw;
+    margin-right: 10px;
+}
+
+#walking-dead {
+    flex: -1vw;
+}
+
+#images-films {
+    display: flex;
+    justify-content: center;
+}
+
+#film1 {
+    flex: 1;
+}
+
+#film2 {
+    flex: 1;
+}
+
+#span3 {
+    display: flex;
+    justify-content: center;
+}
+
+#inception {
+    flex: -1vw;
+}
+
+#texte3 {
+    flex: -1vw;
+    margin-left: 10px;
+}
+
+#span4 {
+    display: flex;
+    justify-content: center;
+}
+
+#texte4 {
+    flex: -1vw;
+    margin-right: 10px;
+}
+
+#matrix {
+    flex: -1vw;
+    width: 200px;
+}
