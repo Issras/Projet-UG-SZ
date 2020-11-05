@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Portfolio de Ulrich et Simon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Ulrich et Simon</title>
+    <link href="page-home.css" rel="stylesheet" type="text/css" />
+    <script src="ninja-slider.js" type="text/javascript"></script>
+    <style>
+        body {font: normal 0.9em Arial;margin:0;}
+        a {color:#1155CC;}
+        ul li {padding: 10px 0;}
+        header {display:block;padding:60px 0 10px;background-color:#191919;text-align:center;}
+        header a {
+            font-family: sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            padding: 8px 13px 7px;
+            color: #4d5256;
+            text-decoration:none;
+            transition: color 0.7s;
+        }
+        header a.active {
+            font-weight:bold;
+            width: 24px;
+            height: 24px;
+            padding: 4px;
+            text-align: center;
+            display:inline-block;
+            border-radius: 50%;
+            background: #4d5256;
+            color: #191919;
+        }
+    </style>
 </head>
 <body>
-<!-- Slideshow container -->
-<div class="slideshow-container">
-<!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-        <img src="img1.jpg" style="width:100%">
-        <div class="text">Formation Réalise</div>
-    </div>
-    <div class="my-slides fade">
-        <img src="img2.jpg" style="width:100%">
-        <div class="text">Nouvelles Technologies</div>
-    </div>
-    <div class="mySlides fade">
-        <img src="img3.jpg" style="width:100%">
-        <div class="text">Sport</div>
-    </div>
-    <div class="mySlides fade">
-        <img src="img3.jpg" style="width:100%">
-        <div class="text">Musique</div>
-    </div>
-    <div class="mySlides fade">
-        <img src="img3.jpg" style="width:100%">
-        <div class="text">Nourriture</div>
-    </div>
-    <div class="mySlides fade">
-        <img src="img3.jpg" style="width:100%">
-        <div class="text">Netflix</div>
-    </div>
-
-    <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+<!--start-->
+<div id="ninja-slider">
+    <div class="slider-inner">
+        <ul>
+            <li>
+                <a href="page-formation-realise.html"><img class="ns-img" src="https://realise.ch/img/logo3.jpg" style="cursor:pointer;"></a>
+                <div class="caption">Formation Réalise</div>
+            </li>
+            <li>
+                <a href="page-new-technology.html"><img class="ns-img" src="https://images.theconversation.com/files/288762/original/file-20190820-170941-xq11fp.jpg?ixlib=rb-1.1.0&rect=8%2C308%2C1988%2C1284&q=45&auto=format&w=926&fit=clip" style="cursor:pointer;"></a>
+                <div class="caption">Nouvelles Technologies</div>
+            </li>
+            <li>
+                <a href="page-sport.html"><img class="ns-img" src="https://essensiel.ch/wp-content/uploads/2020/02/sportif_11.jpg" style="cursor:pointer;"></a>
+                <div class="caption">Sports</div>
+            </li>
+            <li>
+                <a href="page-musique.html"><img class="ns-img" src="https://www.applicationiphone.info/wp-content/uploads/2016/05/musique-1024x493.png" style="cursor:pointer;"></a>
+                <div class="caption">Musique</div>
+            </li>
+            <li>
+                <a href="page-nourriture.html"><img class="ns-img" src="https://www.papillesetpupilles.fr/wp-content/uploads/2019/01/Co%CC%82te-boeuf-au-four-%C2%A9hlphoto-shutterstock.jpg" style="cursor:pointer;"></a>
+                <div class="caption">Nourriture</div>
+            </li>
+            <li>
+                <a href="page-netflix.html"><img class="ns-img" src="https://static.latribune.fr/full_width/1233270/netflix-mosaique-series-tele-tv.jpg" style="cursor:pointer;"></a>
+                <div class="caption">Netflix</div>
+            </li>
+        </ul>
+        <div class="fs-icon" title="Etendre/Fermer"></div>
     </div>
 </div>
+<!--end-->
 </body>
 </html>
