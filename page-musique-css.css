@@ -1,0 +1,55 @@
+#titre {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+#video1 {
+    display: flex;
+    margin-bottom: 5vw;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: black;
+    padding-top: 5vw;
+}
+
+#eminem {
+    flex: -1vw;
+}
+
+#texte1 {
+    flex: -1vw;
+}
+
+#video2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5vw;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: black;
+    padding-top: 5vw;
+}
+
+#texte2 {
+    flex: -1vw;
+}
+
+#dance-monkey {
+    flex: -1vw;
+}
+
+#video3 {
+    display: flex;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: black;
+    padding-top: 5vw;
+}
+
+#con-calma {
+    flex: -1vw;
+}
+
+#texte3 {
+    flex: -1vw;
+}
