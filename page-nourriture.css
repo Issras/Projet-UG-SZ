@@ -2,39 +2,48 @@ img {
     max-width:40%;
     height:auto;
     border-radius: 70%;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+    margin:0px 50px;
 }
-
-div {
-    background: black;
-    height:auto;
-}
-
-h2 {
-    color: whitesmoke;
-    font-family: Verdana;
-}
-
 * {
     box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
+body {
+    background-color: black;
+    font-family: Arial;
+    margin: 25px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+h1 {
+    text-align: center;
+    color: #f1f1f1;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
+h2 {
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-left {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main-right {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
     }
 }
