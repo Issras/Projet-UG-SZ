@@ -1,0 +1,86 @@
+img {
+    max-width:40%;
+    height:auto;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 9px 30px 0 rgba(0, 0, 0, 0.19);
+    margin:0px 50px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 70%;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #f1f1f1;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 33%;
+}
+
+.flex-item-center {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 33%;
+}
+
+.flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 33%;
+}
+@media screen and (max-width: 800px) {
+    .flex-container, .row, .navbar {
+        flex-direction: column;
+    }
+}
